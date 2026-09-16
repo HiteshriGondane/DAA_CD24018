@@ -1,3 +1,8 @@
+<div align="center">
+  <img src="attachments/62CGbMWU4d3NT9FhBwaXV.png" alt="SB Jain Institute Banner" width="800"/>
+</div>
+
+
 # 🚀 Design & Analysis of Algorithms (DAA) – Practical List  
 <div align="center">
 
@@ -5,6 +10,10 @@
 
 </div>
 
+<div align="center">
+  <!-- Course Information Table -->
+  <img src="attachments/KLjY7S3WoeMTMHCFwPKWN.png" alt="Course Information Table" width="600"/>
+</div>
 ---
 
 ## 🎯 Course Objective  
