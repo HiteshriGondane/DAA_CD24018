@@ -1,162 +1,480 @@
-<div align="center">
-  <img src="C:\Users\HP\OneDrive\Desktop\college Logo.png" alt="SB Jain Institute Banner" width="800"/>
-</div>
+<p align="center">
+  <img 
+    src="./assets/college-header.png"
+    alt="S. B. Jain Institute of Technology, Management and Research"
+    width="850"
+  />
+</p>
 
+<h1 align="center">🚀 Design & Analysis of Algorithms</h1>
 
-# 🚀 Design & Analysis of Algorithms (DAA) – Practical List  
-<div align="center">
+<p align="center">
+  <b>DAA Practical Repository | Session 2026–27</b>
+</p>
 
-📚 *Session 2026-27 | S. B. Jain Institute of Technology, Nagpur*
-
-</div>
-
-<div align="center">
-  <!-- Course Information Table -->
-  <img src=""C:\Users\HP\OneDrive\Desktop\co.png"" alt="Course Information Table" width="600"/>
-</div>
----
-
-## 🎯 Course Objective  
-This course enables students to design and analyze algorithms in terms of efficiency and correctness, highlighting problem-solving techniques for efficient algorithm design.
-
----
+<p align="center">
+  <img src="https://img.shields.io/badge/Course-DAA-blue?style=for-the-badge">
+  <img src="https://img.shields.io/badge/Course%20Code-N--PCCCD501P-green?style=for-the-badge">
+  <img src="https://img.shields.io/badge/Session-2026--27-orange?style=for-the-badge">
+</p>
 
 ---
+
 
 <div align="center">
 
-## ✅ Course Outcomes
+<h2>📚 Course Details</h2>
+
+<table align="center">
+<tr>
+<th>Course Code</th>
+<th>Course Title</th>
+<th colspan="3">Hour/Week</th>
+<th>Credits</th>
+<th colspan="3">Maximum Marks</th>
+<th>ESE<br>Duration (Hrs.)</th>
+</tr>
+
+<tr>
+<th></th>
+<th></th>
+<th>L</th>
+<th>T</th>
+<th>P</th>
+<th></th>
+<th>Continuous<br>Evaluation</th>
+<th>End<br>Sem Exam</th>
+<th>Total</th>
+<th></th>
+</tr>
+
+<tr>
+<td><b>N-PCCCD501P</b></td>
+<td><b>Design &<br>Analysis of<br>Algorithms</b></td>
+<td>0</td>
+<td>0</td>
+<td>2</td>
+<td>1</td>
+<td>25</td>
+<td>25</td>
+<td>50</td>
+<td>-</td>
+</tr>
+</table>
 
 </div>
 
-<blockquote>
-
-- **CO1:** Apply – Utilize basic traversal and search techniques on graphs; solve with backtracking and approximation.  
-- **CO2:** Analyze – Analyze time and space complexity, determine algorithmic performance.  
-- **CO3:** Evaluate – Choose appropriate data structures and paradigms for solving problems.  
-- **CO4:** Create – Design efficient algorithms for moderately complex computational problems.  
-
-</blockquote>
 
 ---
 
-## 🧪 Practical List  
+## 🎓 Course Information
 
-<details>
-<summary>🔍 Pre-Lab</summary>
-  <div style="border: 2px solid #4CAF50; padding: 15px; border-radius: 10px; background-color: #f9f9f9;">
-📌 **Aim:**  
-Analyse the time and space complexity of an algorithm that generates all prime numbers up to a given value `n`, and perform empirical comparisons for inputs such as 100, 1000, 10000, and 100000. 
+| Details | Information |
+|---|---|
+| **Course** | Design & Analysis of Algorithms |
+| **Course Code** | N-PCCCD501P |
+| **Session** | 2026–27 |
+| **Course In-charge** | Prof. Ravi Asati |
+| **Practical Work** | 10 Practicals + Open Ended Practical |
+| **Repository ID** | CD24018 |
 
-🎯 **CO Mapped:** CO1 
+---
+
+## 📖 About This Repository
+
+This repository contains the practical implementations for the
+**Design & Analysis of Algorithms (DAA)** course.
+
+The practical work focuses on designing, implementing and analysing
+algorithms using different problem-solving techniques.
+
+The major concepts covered in this repository include:
+
+- 🔍 Searching Algorithms
+- 🔄 Sorting Algorithms
+- ⚡ Divide and Conquer
+- 🌳 Greedy Algorithms
+- 🧠 Dynamic Programming
+- 🕸️ Graph Algorithms
+- ♟️ Backtracking
+- 📊 Time and Space Complexity Analysis
+
+---
+
+# 🎯 Course Outcomes
+
+After successful completion of this course, the following Course
+Outcomes are addressed through the practical work:
+
+| CO | Course Outcome |
+|---|---|
+| **CO1** | **Apply:** Utilize basic traversal and search techniques on graphs; solve with backtracking and approximation. |
+| **CO2** | **Analyze:** Analyze time and space complexity and determine algorithmic performance. |
+| **CO3** | **Evaluate:** Choose appropriate data structures and paradigms for solving problems. |
+| **CO4** | **Create:** Design efficient algorithms for moderately complex computational problems. |
+
+---
+
+# 📚 Practical List
+
+| No. | Practical | Algorithm / Technique |
+|:---:|---|---|
+| 00 | Pre-Lab | Prime Number Generation & Complexity Analysis |
+| 01 | Server Log Sorting | Quick Sort |
+| 02 | Manuscript Search | Binary Search |
+| 03 | Spacecraft Matrix Calculation | Strassen Matrix Multiplication |
+| 04 | Fiber Network Planning | Kruskal's Minimum Spanning Tree |
+| 05 | Emergency Ambulance Routing | Dijkstra's Algorithm |
+| 06 | Autonomous Drone Delivery | TSP using Dynamic Programming |
+| 07 | DNA Sequence Analysis | Longest Common Subsequence |
+| 08 | Currency Arbitrage Detection | Bellman-Ford Algorithm |
+| 09 | Antenna/Grid Placement | N-Queens Problem |
+| 10 | Social Network Reach | Depth-First Search |
+| 11 | Open Ended Practical | Student Designed Problem |
+
+---
+
+# 🧩 Algorithmic Techniques
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+<h3>🔄 Sorting</h3>
+
+<b>Quick Sort</b>
+
+<p>
+A divide-and-conquer sorting algorithm used to efficiently
+arrange large collections of data.
+</p>
+
+</td>
+
+<td width="50%" valign="top">
+
+<h3>🔍 Searching</h3>
+
+<b>Binary Search</b>
+
+<p>
+An efficient searching technique used to locate an element
+in sorted data.
+</p>
+
+</td>
+</tr>
+
+<tr>
+<td width="50%" valign="top">
+
+<h3>⚡ Divide & Conquer</h3>
+
+<b>Strassen Matrix Multiplication</b>
+
+<p>
+Divides matrices into smaller submatrices and recursively
+performs multiplication.
+</p>
+
+</td>
+
+<td width="50%" valign="top">
+
+<h3>🌳 Greedy Algorithm</h3>
+
+<b>Kruskal's Algorithm</b>
+
+<p>
+Constructs a Minimum Spanning Tree by selecting edges
+while minimizing the total cost.
+</p>
+
+</td>
+</tr>
+
+<tr>
+<td width="50%" valign="top">
+
+<h3>🧭 Shortest Path</h3>
+
+<b>Dijkstra's Algorithm</b>
+
+<p>
+Determines the shortest paths from a source vertex
+in a weighted graph.
+</p>
+
+</td>
+
+<td width="50%" valign="top">
+
+<h3>🧠 Dynamic Programming</h3>
+
+<b>TSP & LCS</b>
+
+<p>
+Solves complex problems by breaking them into smaller
+overlapping subproblems.
+</p>
+
+</td>
+</tr>
+
+<tr>
+<td width="50%" valign="top">
+
+<h3>🔗 Graph Algorithms</h3>
+
+<b>Bellman-Ford & DFS</b>
+
+<p>
+Used for shortest-path analysis, negative-cycle detection,
+and graph traversal.
+</p>
+
+</td>
+
+<td width="50%" valign="top">
+
+<h3>♟️ Backtracking</h3>
+
+<b>N-Queens</b>
+
+<p>
+Explores possible solutions and backtracks when a partial
+solution becomes invalid.
+</p>
+
+</td>
+</tr>
+</table>
+
+---
+
+# 📊 Complexity Overview
+
+| Algorithm | Technique | Time Complexity |
+|---|---|---|
+| Quick Sort | Divide & Conquer | Average: O(n log n) |
+| Binary Search | Searching | O(log n) |
+| Strassen | Divide & Conquer | O(n^log₂7) |
+| Kruskal | Greedy | O(E log E) |
+| Dijkstra | Graph | Depends on implementation |
+| TSP | Dynamic Programming | O(n²2ⁿ) |
+| LCS | Dynamic Programming | O(mn) |
+| Bellman-Ford | Graph | O(VE) |
+| N-Queens | Backtracking | Exponential |
+| DFS | Graph Traversal | O(V + E) |
+
+---
+
+# 🎯 What This Repository Demonstrates
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+<h3>🧩 Algorithm Design</h3>
+
+<p>
+Design and implement algorithms using different
+problem-solving strategies such as divide and conquer,
+greedy methods, dynamic programming and backtracking.
+</p>
+
+</td>
+
+<td width="50%" valign="top">
+
+<h3>📊 Complexity Analysis</h3>
+
+<p>
+Analyse the <b>time and space complexity</b> of algorithms
+and understand their efficiency for different input sizes.
+</p>
+
+</td>
+</tr>
+
+<tr>
+<td width="50%" valign="top">
+
+<h3>🕸️ Graph Problem Solving</h3>
+
+<p>
+Apply graph traversal, shortest-path and minimum-spanning-tree
+algorithms to solve practical graph-based problems.
+</p>
+
+</td>
+
+<td width="50%" valign="top">
+
+<h3>⚙️ Algorithmic Techniques</h3>
+
+<p>
+Understand when to use sorting, searching, greedy,
+dynamic programming, graph algorithms and backtracking.
+</p>
+
+</td>
+</tr>
+
+<tr>
+<td width="50%" valign="top">
+
+<h3>💡 Problem Solving</h3>
+
+<p>
+Convert real-world problem scenarios into computational
+problems and develop suitable algorithmic solutions.
+</p>
+
+</td>
+
+<td width="50%" valign="top">
+
+<h3>🚀 Efficient Solutions</h3>
+
+<p>
+Compare algorithmic approaches and select suitable methods
+for solving moderately complex computational problems.
+</p>
+
+</td>
+</tr>
+</table>
+
+<p>
+  <b>━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</b>
+</p>
+
+
+## 💻 Implementation
+
+<div align="center">
+
+> **Every practical is organized in a structured, easy-to-understand format.**
+
 </div>
-</details>
 
-<details>
-<summary>⚡ Practical 1 – Quick Sort Logs</summary>
-  <div style="border: 2px solid #4CAF50; padding: 15px; border-radius: 10px; background-color: #f9f9f9;">
-📌 **Aim:**  
-You are a DevOps engineer at a data center in Pune, managing a critical web server that supports millions of users across India. One day, the server crashes, leaving behind a massive, unsorted log file of user requests with Unix timestamps.  
-To help the DevOps team trace the exact sequence of events leading to the failure, you must sort the log entries chronologically.  
-This is essentially a sorting problem, where timestamps act as keys. Efficient algorithms like **Quick Sort** are used to handle large datasets.
+### 📁 Practical Folder Structure
 
-🎯 **CO Mapped:** CO2 
+Each practical folder contains the following:
+
+|      📄 File / Section     | 📝 Purpose                                           |
+| :------------------------: | :--------------------------------------------------- |
+|      📖 **README.md**      | Problem statement, approach, algorithm & explanation |
+|     💻 **Source Code**     | Complete implementation of the algorithm             |
+|     ⌨️ **Sample Input**    | Example input used for execution                     |
+|    🖥️ **Sample Output**   | Expected execution result                            |
+| 📊 **Complexity Analysis** | Time and space complexity                            |
+
+---
+
+### 🔍 Practical Page Structure
+
+Every individual practical is explained using the following flow:
+
+<div align="center">
+
+**📝 Problem**
+⬇️
+**💡 Approach**
+⬇️
+**⚙️ Algorithm**
+⬇️
+**💻 Code**
+⬇️
+**🖥️ Output**
+⬇️
+**📊 Complexity Analysis**
+⬇️
+**✅ Conclusion**
+
 </div>
-</details>
-
-<details>
-<summary>📜 Practical 2 – Binary Search Manuscripts</summary>
-📌 **Aim:**  
-You are the chief archivist at Nalanda Mahavihara, the legendary ancient Indian university renowned for its vast collection of manuscripts. Palm-leaf manuscripts and birch-bark scrolls are stored in meticulously catalogued order using Archive IDs.  
-The Rajguru (Royal Priest) requests a specific manuscript for a sacred Vedic ritual. Multiple copies of the same manuscript may exist, but tradition dictates that the priest must always receive the oldest preserved copy, which corresponds to the first occurrence of the Archive ID in the catalog.  
-Your challenge is to locate this first occurrence efficiently. A linear search would take too long and result in a **Time Limit Exceeded (TLE)** verdict. Instead, you must apply the power of **Binary Search** to swiftly find the earliest preserved copy.
-  
-🎯 **CO Mapped:** CO2
-</details>
-
-<details>
-<summary>🛰️ Practical 3 – Strassen’s Matrix Multiplication</summary>
-📌 **Aim:**    
-You are an engineer aboard a cutting-edge ISRO interplanetary spacecraft en route to Mars. The navigation computer must perform lightning-fast 4×4 matrix multiplications to continuously adjust the spacecraft’s flight trajectory. To conserve fuel and reduce computational load, the system uses Strassen’s Divide and Conquer Matrix Multiplication algorithm. Instead of multiplying directly, the 4×4 matrices are split into 2×2 quadrants and Strassen’s method is applied recursively.
-  
-🎯 **CO Mapped:** CO3 
-</details>
-
-<details>
-<summary>🌐 Practical 4 – Kruskal’s MST</summary>
- 📌 **Aim:** 
-A government is planning a nationwide high-speed fiber internet network connecting multiple cities. Each possible cable connection between cities has a different installation cost. The government wants to connect all cities while minimizing the total construction cost. Your task is to determine the minimum total cost required to connect all cities using Kruskal’s Minimum Spanning Tree Algorithm.
-  
-🎯 **CO Mapped:** CO3 
-</details>
-
-<details>
-<summary>🚑 Practical 5 – Dijkstra’s Shortest Path</summary>
-You are developing a real-time emergency ambulance routing system for Mumbai, one of India’s busiest metropolitan cities. Road intersections are represented as graph vertices. Roads are represented as weighted edges, where the weight indicates travel time (affected by traffic density, road conditions, etc.).When an emergency occurs, the system must instantly compute the shortest travel time from the hospital to all locations in the city to ensure ambulances reach patients as quickly as possible. Your task is to implement Dijkstra’s Algorithm to achieve this.
-  
-🎯 **CO Mapped:** CO2, CO3 
-</details>
-
-<details>
-<summary>📦 Practical 6 – Travelling Salesman Problem</summary>
-A logistics company in Bengaluru deploys autonomous drones to deliver medical supplies across multiple Indian cities. Each drone must start from the headquarters (HQ). It must visit every city exactly once. Finally, it must return to HQ while minimizing total travel cost (fuel, distance, or time). This is essentially the Travelling Salesman Problem (TSP), and the company’s system uses Dynamic Programming (DP) to compute the minimum travel cost.
-
-🎯 **CO Mapped:** CO2, CO3
-</details>
-
-<details>
-<summary>🧬 Practical 7 – Longest Common Subsequence</summary>
-You are a bioinformatics scientist at the Indian Institute of Science (IISc), Bengaluru, working in a cutting-edge genetic research laboratory.Scientists are comparing DNA samples from two species found in the Western Ghats to identify common evolutionary patterns. Your task is to determine the length of the Longest Common Subsequence (LCS) between two DNA sequences, which reveals shared genetic traits and evolutionary links.
-  
-🎯 **CO Mapped:** CO2, CO3 
-</details>
-
-<details>
-<summary>💱 Practical 8 – Bellman-Ford Arbitrage</summary>
-You are a financial analyst at the Reserve Bank of India (RBI), monitoring the global currency exchange market. Currencies are modeled as graph vertices. Exchange rates are represented as weighted edges, converted into negative logarithms to transform multiplication into addition. Detecting a negative weight cycle in this graph corresponds to a risk-free arbitrage opportunity making profit by continuously trading currencies in a loop. Your task is to apply the BellmanFord Algorithm to detect such cycles.
-  
-🎯 **CO Mapped:** CO2, CO3  
-</details>
-
-<details>
-<summary>📡 Practical 9 – N-Queens Problem</summary>
-You are designing a grid layout for a next-generation server farm in Hyderabad (India’s IT hub) or a cellular network tower distribution system across a metropolitan area. The grid is modeled as an N × N matrix. You must place N high-frequency antennas on this grid. To avoid electromagnetic interference, no two antennas can share the same row, column, or diagonal line of sight. This is essentially the N-Queens Problem, a classic in computer science and combinatorial optimization.
-
-🎯 **CO Mapped:** CO2, CO3 
-</details>
-
-<details>
-<summary>👥 Practical 10 – Depth First Search</summary>
-You are a data scientist at a Bengaluru-based social media startup. Users are represented as nodes in a directed graph. Edges represent "follows" relationships (e.g., if A follows B, there is a directed edge from A → B). When a user posts content, the system must determine the full extent of the post’s reach. However, instead of exploring all immediate followers first (like Breadth-First Search), the algorithm must prioritize following a single chain of interactions to its conclusion before backtracking. This is essentially Depth-First Search (DFS).
-
-🎯 **CO Mapped:** CO2, CO3 
-</details>
-
-<details>
-<summary>📝 Post-Lab</summary>
-
-📌 **Aim:**  
-Open Ended Practical – Students design and implement their own github repository to make more attractive page using HTML & CSS language. 
-
-🎯 **CO Mapped:** CO1, CO2, CO3, CO4  
-</details>
----
-
-## 🧑‍💻 Contributors  
-- **Prof. Ravi Asati** – Course In-charge (Batch I)  
-- **Prof. Sumit Sonar** – Course In-charge (Batch II)  
-- **Prof. Ashish Golghate** – Course In-charge (Batch III)  
-- **Dr. Dipak Wajgi** – Head of Department  
 
 ---
 
-## 🌟 How to Run Practicals  
-```bash
-# Clone the repository
-git clone https://github.com/your-username/DAA-Practicals.git
+### 🎯 Learning Flow
 
-# Navigate to folder
-cd DAA-Practicals
+<div align="center">
 
-# Run Python files (example)
-python practical1_quicksort.py
+| 🧠 Understand | 💡 Design |  ⚙️ Implement | 📊 Analyze |
+| :-----------: | :-------: | :-----------: | :--------: |
+|    Problem    |  Approach | Code & Output | Complexity |
+
+</div>
+
+> **Goal:** To understand not only *how* an algorithm works, but also *why* it works and how efficiently it performs.
+
+---
+
+
+<h2 align="center">🚀 Learning Through Algorithms</h2>
+
+<p align="center">
+  <i>
+    "Transforming complex problems into efficient and intelligent solutions
+    through the power of algorithms."
+  </i>
+</p>
+
+<br>
+
+<table align="center">
+<tr>
+<td align="center">
+
+### 🧠 THINK
+Understand the problem
+
+</td>
+
+<td align="center">
+
+### ⚙️ DESIGN
+Build the algorithm
+
+</td>
+
+<td align="center">
+
+### 💻 IMPLEMENT
+Turn ideas into code
+
+</td>
+
+<td align="center">
+
+### 📊 ANALYSE
+Measure efficiency
+
+</td>
+</tr>
+</table>
+
+<br>
+
+<p align="center">
+  <b>━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</b>
+</p>
+
+<p align="center">
+  🎓 <b>DAA Practical Repository · Session 2026–27</b>
+  <br>
+  <sub>Design & Analysis of Algorithms</sub>
+</p>
+
+<p align="center">
+  <b>Designed & Implemented by</b>
+  <br>
+  <strong>✨ Hiteshri Gondane ✨</strong>
+</p>
+
+<p align="center">
+  <i>Learn • Design • Implement • Analyse</i>
+</p>
+
+---
