@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="attachments/62CGbMWU4d3NT9FhBwaXV.png" alt="SB Jain Institute Banner" width="800"/>
+  <img src="C:\Users\HP\OneDrive\Desktop\college Logo.png" alt="SB Jain Institute Banner" width="800"/>
 </div>
 
 
@@ -12,7 +12,7 @@
 
 <div align="center">
   <!-- Course Information Table -->
-  <img src="attachments/KLjY7S3WoeMTMHCFwPKWN.png" alt="Course Information Table" width="600"/>
+  <img src=""C:\Users\HP\OneDrive\Desktop\co.png"" alt="Course Information Table" width="600"/>
 </div>
 ---
 
@@ -21,11 +21,22 @@ This course enables students to design and analyze algorithms in terms of effici
 
 ---
 
-## ✅ Course Outcomes  
-- **CO1:** Apply traversal & search techniques on graphs; solve with backtracking & approximation.  
-- **CO2:** Analyze time & space complexity, determine algorithmic performance.  
-- **CO3:** Evaluate data structures & paradigms for solving problems.  
-- **CO4:** Create efficient algorithms for moderately complex computational problems.  
+---
+
+<div align="center">
+
+## ✅ Course Outcomes
+
+</div>
+
+<blockquote>
+
+- **CO1:** Apply – Utilize basic traversal and search techniques on graphs; solve with backtracking and approximation.  
+- **CO2:** Analyze – Analyze time and space complexity, determine algorithmic performance.  
+- **CO3:** Evaluate – Choose appropriate data structures and paradigms for solving problems.  
+- **CO4:** Create – Design efficient algorithms for moderately complex computational problems.  
+
+</blockquote>
 
 ---
 
@@ -33,20 +44,24 @@ This course enables students to design and analyze algorithms in terms of effici
 
 <details>
 <summary>🔍 Pre-Lab</summary>
+  <div style="border: 2px solid #4CAF50; padding: 15px; border-radius: 10px; background-color: #f9f9f9;">
 📌 **Aim:**  
 Analyse the time and space complexity of an algorithm that generates all prime numbers up to a given value `n`, and perform empirical comparisons for inputs such as 100, 1000, 10000, and 100000. 
 
 🎯 **CO Mapped:** CO1 
+</div>
 </details>
 
 <details>
 <summary>⚡ Practical 1 – Quick Sort Logs</summary>
+  <div style="border: 2px solid #4CAF50; padding: 15px; border-radius: 10px; background-color: #f9f9f9;">
 📌 **Aim:**  
 You are a DevOps engineer at a data center in Pune, managing a critical web server that supports millions of users across India. One day, the server crashes, leaving behind a massive, unsorted log file of user requests with Unix timestamps.  
 To help the DevOps team trace the exact sequence of events leading to the failure, you must sort the log entries chronologically.  
 This is essentially a sorting problem, where timestamps act as keys. Efficient algorithms like **Quick Sort** are used to handle large datasets.
 
 🎯 **CO Mapped:** CO2 
+</div>
 </details>
 
 <details>
